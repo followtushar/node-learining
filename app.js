@@ -1,13 +1,13 @@
 var fs = require('fs');
 var argv = require('yargs')
         .option('i', {
-            alias: 'find',
+            alias: 'items',
             demandOption: false,
             describe: 'Intput the items of array(Comma Seperated)',
             type: 'string'
         })
         .option('f',{
-            alias: 'items',
+            alias: 'find',
             demandOption: false,
             describe: 'Input Number to find',
             type: 'number'
